@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# PHP runtime
+*.log
+*.tmp
+
+# Local environment files
+.env
+
+# CodeIgniter writable/runtime outputs
+ci4/appstarter-master/writable/**
+!ci4/appstarter-master/writable/.gitkeep
+
+# Temporary archives and installers
+ci4/*.zip
+ci4/appstarter-master/composer-setup.php
